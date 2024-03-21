@@ -1,0 +1,99 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: #ffffff;
+  /* background-color: #491622; */
+  /* background-color: #00284F; */
+  /* background-color: #16234A; */
+  background-color: #CC6700;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+
+  /* background-image: url('src/assets/logo_1400.svg'); */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-size: 6em;
+  line-height: 1.1;
+  will-change: filter;
+  transition: filter 300ms;
+  /* Glowing brightness effect */
+  animation: glow 2s ease-in-out infinite alternate; /* Animation for the glow effect */
+}
+
+h2 {
+  color: #fff6a7;
+  font-size: 2.5em;
+  will-change: filter;
+  
+  animation: glow 2s ease-in-out infinite alternate; /* Animation for the glow effect */
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 20px #989898, 0 0 30px #16234A; /* Initial text shadow */
+  }
+  to {
+    text-shadow: 0 0 30px #16234A, 0 0 40px #16234A; /* Stronger text shadow for glow effect */
+  }
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.8em 1.5em;
+  margin: 0.5em;
+  font-size: 1.5em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #00284F;
+  /* background-color: #C52B1E; */
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
