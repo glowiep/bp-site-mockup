@@ -20,21 +20,6 @@
   filter: drop-shadow(0 0 2em hsl(0, 0%, 100%));
 }
 
-/* @keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
 .card {
   padding: 2em;
 }
@@ -56,4 +41,21 @@
   right: 0;
   text-align: center;
   color: #7F4000;
+}
+
+// For screens wider than 370px
+@media (max-width: 370) {
+  
+}
+
+// For screens wider than 768px
+@media (max-width: 768px) {
+  .read-the-docs {
+    font-size: 12px;
+  }
+}
+
+// For screens wider than 1200px
+@media (max-width: 1200px) {
+
 }

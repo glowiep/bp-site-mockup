@@ -9,3 +9,24 @@
   max-width: 800px; 
   padding: 20px;
 }
+
+// For screens wider than 370px
+@media (max-width: 370) {
+  
+}
+
+// For screens wider than 768px, use cover background size
+@media (max-width: 768px) {
+  .landing {
+    height: 80vh;
+    max-width: 80%;
+  }
+}
+
+// For screens wider than 1200px, use fixed dimensions
+@media (max-width: 1200px) {
+  .landing {
+    // height: 170px;
+    max-width: 80%;
+  }
+}

@@ -10,13 +10,13 @@ function App() {
   return (
     <div>
       <div>
-        <img src={bpLogo} className="logo" alt="BP logo" />
+        {/* <img src={bpLogo} className="logo" alt="BP logo" /> */}
       </div>
 
       <div>
         <Landing />
         <div className='content'>
-          <YoutubeEmbed embedId="qvoiYbpkDfo" />  
+          {/* <YoutubeEmbed embedId="qvoiYbpkDfo" />   */}
           <Features />
           <Testimonials />
         </div>
