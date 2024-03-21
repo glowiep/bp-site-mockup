@@ -1,7 +1,9 @@
 import bpLogo from './assets/logo_1400.svg'
-import './App.css'
+import './App.scss'
 import Landing from './components/Landing'
 import YoutubeEmbed from './components/YoutubeEmbed'
+import Features from './components/Features'
+import Testimonials from './components/Testimonials'
 
 function App() {
 
@@ -14,12 +16,9 @@ function App() {
       <div>
         <Landing />
         <div className='content'>
-          <h1>hi</h1>  
           <YoutubeEmbed embedId="qvoiYbpkDfo" />  
-          <h1>hi</h1>  
-          <h1>hi</h1>  
-          <h1>hi</h1>  
-          <h1>hi</h1>  
+          <Features />
+          <Testimonials />
         </div>
 
       </div>
