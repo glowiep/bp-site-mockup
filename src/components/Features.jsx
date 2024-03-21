@@ -3,7 +3,7 @@ import '../styles/Features.scss'
 
 const Features = () => (
   <div>
-    <h1>Features</h1>
+    <h1 className="title">Features</h1>
   </div>
 );
 

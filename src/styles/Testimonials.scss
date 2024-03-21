@@ -1,0 +1,38 @@
+$default-blue: #00284F;
+
+.title {
+  font-size: 4em;
+}
+
+.testimonial-quote {
+  font-size: 1.6em;
+}
+
+.testimonial-card {
+  background-color: rgba(0, 40, 79, 0.7); /* Semi-transparent background color */
+  backdrop-filter: blur(20px); /* Blur effect for glass-like appearance */
+  padding: 20px; /* Adjust padding as needed */
+  border-radius: 10px; /* Border radius for rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+  margin-top: 20px; /* Optional: Add margin for spacing */
+  color: #fff; /* Text color */
+  margin: 1em;
+}
+
+
+// For screens wider than 370px
+@media (max-width: 370) {
+
+}
+
+// For screens wider than 768px
+@media (max-width: 768px) {
+  .title {
+    font-size: 3em;
+  }
+}
+
+// For screens wider than 1200px
+@media (max-width: 1200px) {
+
+}

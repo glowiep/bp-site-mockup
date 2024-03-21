@@ -1,0 +1,21 @@
+.title {
+  font-size: 4em;
+}
+
+
+// For screens wider than 370px
+@media (max-width: 370) {
+
+}
+
+// For screens wider than 768px
+@media (max-width: 768px) {
+  .title {
+    font-size: 3em;
+  }
+}
+
+// For screens wider than 1200px
+@media (max-width: 1200px) {
+
+}

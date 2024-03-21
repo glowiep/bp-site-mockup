@@ -35,8 +35,8 @@
 
 
 .read-the-docs {
-  position: fixed;
-  bottom: 10px;
+  position: absolute;
+  bottom: 0.5em;
   left: 0;
   right: 0;
   text-align: center;
@@ -45,7 +45,7 @@
 
 // For screens wider than 370px
 @media (max-width: 370) {
-  
+
 }
 
 // For screens wider than 768px
