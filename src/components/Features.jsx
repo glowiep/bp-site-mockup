@@ -1,5 +1,6 @@
 import React from "react";
 import '../styles/Features.scss'
+import { featureData } from "../data/featureData";
 
 const Features = () => (
   <div>

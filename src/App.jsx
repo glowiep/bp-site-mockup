@@ -16,7 +16,7 @@ function App() {
       <div>
         <Landing />
         <div className='content'>
-          {/* <YoutubeEmbed embedId="qvoiYbpkDfo" />   */}
+          <YoutubeEmbed embedId="qvoiYbpkDfo" />  
           <Features />
           <Testimonials />
         </div>

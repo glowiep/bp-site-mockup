@@ -1,4 +1,25 @@
 .video {
   max-height: max-content;
-  
+  overflow: hidden;
+  position: relative;
+}
+
+.video iframe {
+  position: relative;
+}
+
+// For screens wider than 370px
+@media (max-width: 370) {
+  .video iframe {
+    max-width: 80%;
+    max-height: 100px;
+  }
+}
+
+// For screens wider than 768px
+@media (max-width: 960px) {
+  .video iframe {
+    max-width: 80%;
+    max-height: 200px;
+  }
 }
