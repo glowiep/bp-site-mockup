@@ -6,7 +6,7 @@ const Features = () => {
   return (
     <div className="feature-div">
       {featureData.map((feature) => (
-        <a href={feature.url}>
+        <a href={feature.url} target="_blank" rel="noopener noreferrer">
           <div className="feature-card glassy-background">
             <h3>
               {feature.title}

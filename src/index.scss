@@ -1,6 +1,6 @@
 $main-background-color:#CC6700;
 $default-text-color: ffffff;
-$button-backgound-color: #00284F;
+$default-blue: #00284F;
 
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -21,11 +21,12 @@ $button-backgound-color: #00284F;
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: #C52B1E;
   text-decoration: inherit;
+  font-style: italic;
 }
 a:hover {
-  color: #535bf2;
+  color: $default-blue;
 }
 
 body {
@@ -79,7 +80,7 @@ button {
   font-size: 1.8em;
   font-weight: 500;
   font-family: inherit;
-  background-color: $button-backgound-color;
+  background-color: $default-blue;
   // background-color: #C52B1E; //contrast orange
   cursor: pointer;
   transition: border-color 0.25s;

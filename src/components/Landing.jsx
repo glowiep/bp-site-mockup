@@ -1,7 +1,7 @@
 import React from "react";
 import '../styles/Landing.scss'
 
-const Landing = () => {
+const Landing = ({ embedId }) => {
   return (
     <div className="landing-wrapper">
       <div className="landing">
@@ -10,10 +10,10 @@ const Landing = () => {
           <h2>
             Thinking of Switching Software?
           </h2>
-          <a href="https://www.youtube.com/watch?v=qvoiYbpkDfo" target="_blank" rel="noopener noreferrer">
+          <a href={`https://www.youtube.com/watch?v=${embedId}`} target="_blank" rel="noopener noreferrer">
             <button>Watch Our Video</button>
           </a>
-          <a href="https://www.busplanner.com/demo.htm">
+          <a href="https://www.busplanner.com/demo.htm" target="_blank" rel="noopener noreferrer">
             <button>Request a Demo</button>
           </a>
         </div>
