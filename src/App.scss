@@ -5,13 +5,19 @@
   text-align: center;
 }
 
+.app {
+  display: flex;
+  flex: 1 0 auto;
+  flex-direction: column;
+}
+
 .card {
   padding: 2em;
 }
 
 .content {
-  flex: 1;
   display: flex;
+  flex: 1 0 auto;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -28,14 +34,9 @@
   margin: 0.5em;
 }
 
-
 // For screens with a maximum width of 768px
 @media (max-width: 768px) {
   .read-the-docs {
     font-size: 12px;
-  }
-
-  .content {
-    margin-top: 25em;
   }
 }

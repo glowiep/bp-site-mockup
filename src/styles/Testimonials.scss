@@ -2,6 +2,7 @@ $default-blue: #00284F;
 
 .title {
   font-size: 4em;
+  margin-top: 1.5em;
 }
 
 .testimonial-quote {
@@ -20,17 +21,20 @@ $default-blue: #00284F;
   margin-bottom: 2em;
 }
 
+// For screens with a maximum width of 768px
+@media (max-width: 768px) {
+  .title {
+    font-size: 3em;
+  }
+
+  .testimonial-quote {
+    font-size: 1em;
+  }
+}
 
 // For screens with a maximum width of 370px
 @media (max-width: 370) {
   .testimonial-card {
     margin:0.5em;
-  }
-}
-
-// For screens with a maximum width of 768px
-@media (max-width: 768px) {
-  .title {
-    font-size: 3em;
   }
 }

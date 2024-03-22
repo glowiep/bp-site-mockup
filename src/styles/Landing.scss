@@ -1,6 +1,7 @@
 .landing-wrapper {
   min-height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -11,23 +12,22 @@
   max-height: fit-content;
 }
 
-// For screens with a maximum width of 370px
-@media (max-width: 370) {
-  
-}
-
-// For screens with a maximum width of 768px, use cover background size
-@media (max-width: 768px) {
+// For screens with a maximum width of 1200px, use fixed dimensions
+@media (max-width: 1200px) {
   .landing {
-    height: 80vh;
     max-width: 80%;
   }
 }
 
-// For screens with a maximum width of 1200px, use fixed dimensions
-@media (max-width: 1200px) {
+
+// For screens with a maximum width of 768px, use cover background size
+@media (max-width: 768px) {
+  .landing-wrapper {
+    justify-content: flex-start; /* Align content to the top when screen is small */
+  }
+  
   .landing {
-    // height: 170px;
+    height: 80vh;
     max-width: 80%;
   }
 }

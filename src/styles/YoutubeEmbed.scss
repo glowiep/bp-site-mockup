@@ -9,18 +9,18 @@
   position: relative;
 }
 
-// For screens with a maximum width of 370px
-@media (max-width: 370) {
-  .video iframe {
-    max-width: 80%;
-    max-height: 100px;
-  }
-}
-
 // For screens with a maximum width of 768px
 @media (max-width: 960px) {
   .video iframe {
     max-width: 80%;
     max-height: 200px;
+  }
+}
+
+// For screens with a maximum width of 370px
+@media (max-width: 370) {
+  .video iframe {
+    max-width: 80%;
+    max-height: 100px;
   }
 }

@@ -35,6 +35,7 @@ body {
   place-items: center;
   min-width: 200px;
   min-height: 100vh;
+  flex-shrink: 2;
 
   background-image: url('src/assets/logo_1400.svg');
   background-repeat: no-repeat;
@@ -43,6 +44,7 @@ body {
 
   // Additional styles
   filter: drop-shadow(0 0 2em hsl(0, 0%, 100%));
+  overflow-x: hidden;
 }
 
 h1 {
@@ -109,27 +111,16 @@ button:focus-visible {
 
 // For screens with a maximum width of 370px
 @media (max-width: 370) {
+  body {
+    background-size: 60%;
+    min-width: 300px;
+  }
+  
   button {
     font-size: 1em;
   }
 }
 
-// For screens with a maximum width of 480px
-@media (max-width: 480px) {
-  h1 {
-    font-size: 4em;
-  }
-
-  button {
-    font-size: 2em;
-  }
-
-  button {
-    font-size: 2em;
-    padding: 0.3em 0.5em;
-    margin: 0.5em;
-  }
-}
 
 // For screens with a maximum width of 768px
 @media (max-width: 768px) {
@@ -156,6 +147,28 @@ button:focus-visible {
   button {
     font-size: 2.2em;
     padding: 0.6em 0.8em;
+    margin: 0.5em;
+  }
+}
+
+
+// For screens with a maximum width of 480px
+@media (max-width: 480px) {
+  body {
+    flex-direction: row-reverse;
+  }
+
+  h1 {
+    font-size: 3em;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+
+  button {
+    font-size: 1.2em;
+    padding: 0.7em 0.8em;
     margin: 0.5em;
   }
 }

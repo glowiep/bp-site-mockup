@@ -1,12 +1,18 @@
 $default-blue: #00284F;
 
 .feature-div {
-  margin-top: 5em;
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 100%;
+  height: auto;
 }
 
 .feature-card {
-  margin-top: 4em;
+  margin-top: 3em;
   padding: 1em;
+  border-radius: 10px; 
 }
 
 .glassy-background {
@@ -22,11 +28,48 @@ $default-blue: #00284F;
   }
 }
 
-// For screens with a maximum width of 370px
-@media (max-width: 370) {
+img {
+  max-width: 100%;
+  width: 70%;
+  height: auto;
+}
+
+// For screens with a maximum width of 768px
+@media (max-width: 680px) {
   .feature-div {
-    max-width: 320px;
+    max-width: 600px;
+  }
+
+  .feature-card {
+    min-width: 300px;
+    padding: 0em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+  }
+
+  .glassy-background {
+    h3 {
+      color: $default-blue;
+      font-size: 1.6em;
+      margin: 1em;
+    }
+    p {
+      color: black;
+      font-size: 1em;
+      margin: 1em;
+    }
+  }
+}
+
+
+// For screens with a maximum width of 480px
+@media (max-width: 480) {
+  .feature-div {
     margin-top: 2em;
+  }
+
+  .feature-card {
+    width: 300px;
   }
 
   .glassy-background {
@@ -40,28 +83,4 @@ $default-blue: #00284F;
       font-size: 1em;
     }
   }
-}
-
-// For screens with a maximum width of 768px
-@media (max-width: 768px) {
-  .feature-div {
-    max-width: 600px;
-  }
-
-  .glassy-background {
-    // max-width: 600px;
-    h3 {
-      color: $default-blue;
-      font-size: 2.8em;
-    }
-    p {
-      color: black;
-      font-size: 1.8em;
-    }
-  }
-}
-
-// For screens with a maximum width of 1200px
-@media (max-width: 1200px) {
-
 }

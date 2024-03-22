@@ -9,7 +9,7 @@ function App() {
   const youtubeEmbedId = "qvoiYbpkDfo"
   return (
     <>
-      <div>
+      <div className='app'>
         <Landing embedId={youtubeEmbedId} />
         <div className='content'>
           <YoutubeEmbed embedId={youtubeEmbedId} />  
@@ -18,11 +18,11 @@ function App() {
         </div>
       </div>
       
-      <p className="read-me-note">
+      <div className="read-me-note">
         <GithubIcon />
         Created with ReactJS.<br />
         <a href="https://www.busplanner.com/index.aspx" target="_blank" rel="noopener noreferrer">BusPlanner.com</a> website mockup by <a href="https://github.com/glowiep/bp-site-mockup" target="_blank" rel="noopener noreferrer">Gloria Lim</a>. 
-      </p>
+      </div>
     </>
   )
 }

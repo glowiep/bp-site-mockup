@@ -8,7 +8,7 @@ The mockup features a clean and minimalist design with a focus on user-friendly 
 ## Process 💭
 - The goals for this redesign were simple. Due to time limits, the focus was to create a single landing page for <a href="https://www.busplanner.com" target="_blank">busplanner.com</a>, which links to the existing pages. 
 - No changes to the existing wording were made. The images were also sourced from the original page, and converted to SVG for this project.
-- A good chunk of my time was spent on choosing the right color that ensures a good contrast. I also sought consultation from <a href="https://color.adobe.com/create/color-wheel" target="_blank">Adobe Color Wheel</a>.
+- A good chunk of my time was spent on choosing the color that ensures a good contrast. I also referred to <a href="https://color.adobe.com/create/color-wheel" target="_blank">Adobe Color Wheel</a> when making this decision.
 - Majority of my time was also spent on responsive design for various screen sizes. Took me awhile to resolve the issue where the logo in the background looked awkward when resizing the window. The culprit was the (background image) background-size attribute for the body in index.scss.
 - Given more time, other features that could have been included are:
   - A responsive navbar.
