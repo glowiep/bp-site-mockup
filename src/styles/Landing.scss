@@ -11,12 +11,12 @@
   max-height: fit-content;
 }
 
-// For screens wider than 370px
+// For screens with a maximum width of 370px
 @media (max-width: 370) {
   
 }
 
-// For screens wider than 768px, use cover background size
+// For screens with a maximum width of 768px, use cover background size
 @media (max-width: 768px) {
   .landing {
     height: 80vh;
@@ -24,7 +24,7 @@
   }
 }
 
-// For screens wider than 1200px, use fixed dimensions
+// For screens with a maximum width of 1200px, use fixed dimensions
 @media (max-width: 1200px) {
   .landing {
     // height: 170px;

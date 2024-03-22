@@ -10,8 +10,8 @@ $default-blue: #00284F;
 }
 
 .glassy-background {
-  background-color: rgba(255, 255, 255, 0.838); /* Adjust opacity as needed */
-  backdrop-filter: blur(10px); /* Adjust blur intensity as needed */
+  background-color: rgba(255, 255, 255, 0.838);
+  backdrop-filter: blur(10px); 
   h3 {
     color: $default-blue;
     font-size: 2.7em;
@@ -22,7 +22,7 @@ $default-blue: #00284F;
   }
 }
 
-// For screens wider than 370px
+// For screens with a maximum width of 370px
 @media (max-width: 370) {
   .feature-div {
     max-width: 320px;
@@ -42,7 +42,7 @@ $default-blue: #00284F;
   }
 }
 
-// For screens wider than 768px
+// For screens with a maximum width of 768px
 @media (max-width: 768px) {
   .feature-div {
     max-width: 600px;
@@ -61,7 +61,7 @@ $default-blue: #00284F;
   }
 }
 
-// For screens wider than 1200px
+// For screens with a maximum width of 1200px
 @media (max-width: 1200px) {
 
 }

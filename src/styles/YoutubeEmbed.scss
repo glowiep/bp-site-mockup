@@ -9,7 +9,7 @@
   position: relative;
 }
 
-// For screens wider than 370px
+// For screens with a maximum width of 370px
 @media (max-width: 370) {
   .video iframe {
     max-width: 80%;
@@ -17,7 +17,7 @@
   }
 }
 
-// For screens wider than 768px
+// For screens with a maximum width of 768px
 @media (max-width: 960px) {
   .video iframe {
     max-width: 80%;

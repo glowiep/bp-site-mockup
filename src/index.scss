@@ -9,15 +9,14 @@ $button-backgound-color: #00284F;
 
   color-scheme: light dark;
   color: default-text-color;
-  /* background-color: #491622; */
-  /* background-color: #00284F; */
-  /* background-color: #16234A; */
+  /* background-color: #491622; - Another option for background color */
+  /* background-color: #00284F; - Another option for background color */ 
+  /* background-color: #16234A; - Another option for background color */
   background-color: $main-background-color;
 
-  // font-synthesis: none;
-  // text-rendering: optimizeLegibility;
-  // -webkit-font-smoothing: antialiased;
-  // -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;  // enhance the legibility of text by optimizing the way it is rendered, especially at smaller font sizes
+  -webkit-font-smoothing: antialiased;  // applies anti-aliasing to text, which smoothens the edges of characters and improves their appearance on screens
+  -moz-osx-font-smoothing: grayscale;  // applies anti-aliasing to text on Firefox browsers, using a grayscale method to improve text rendering
 }
 
 a {
@@ -37,13 +36,11 @@ body {
   min-height: 100vh;
 
   background-image: url('src/assets/logo_1400.svg');
-  // background-size: contain;
-  // background-size: 110% 100%;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
 
-  /* Additional styles */
+  // Additional styles
   filter: drop-shadow(0 0 2em hsl(0, 0%, 100%));
 }
 
@@ -52,8 +49,8 @@ h1 {
   line-height: 1.1;
   will-change: filter;
   transition: filter 300ms;
-  /* Glowing brightness effect */
-  animation: glow 2s ease-in-out infinite alternate; /* Animation for the glow effect */
+  // Glowing brightness effect
+  animation: glow 2s ease-in-out infinite alternate;
 
 }
 
@@ -62,15 +59,15 @@ h2 {
   font-size: 2.5em;
   will-change: filter;
   
-  animation: glow 2s ease-in-out infinite alternate; /* Animation for the glow effect */
+  animation: glow 2s ease-in-out infinite alternate;
 }
 
 @keyframes glow {
   from {
-    text-shadow: 0 0 20px #989898, 0 0 30px #16234A; /* Initial text shadow */
+    text-shadow: 0 0 20px #989898, 0 0 30px #16234A; 
   }
   to {
-    text-shadow: 0 0 30px #16234A, 0 0 40px #16234A; /* Stronger text shadow for glow effect */
+    text-shadow: 0 0 30px #16234A, 0 0 40px #16234A;
   }
 }
 
@@ -83,7 +80,7 @@ button {
   font-weight: 500;
   font-family: inherit;
   background-color: $button-backgound-color;
-  /* background-color: #C52B1E; */ //contrast orange
+  // background-color: #C52B1E; //contrast orange
   cursor: pointer;
   transition: border-color 0.25s;
 }
@@ -114,51 +111,50 @@ button:focus-visible {
   button {
     font-size: 1em;
   }
-  
 }
 
 // For screens with a maximum width of 480px
 @media (max-width: 480px) {
+  h1 {
+    font-size: 4em;
+  }
 
+  button {
+    font-size: 2em;
+  }
+
+  button {
+    font-size: 2em;
+    padding: 0.3em 0.5em;
+    margin: 0.5em;
+  }
 }
 
 // For screens with a maximum width of 768px
 @media (max-width: 768px) {
   body {
     background-size: cover;
-    min-width: 750px;
   }
 
   h1 {
     animation: none;
-    font-size: 5em;
+    font-size: 4.2em;
     line-height: 1;
     text-shadow: 0 0px 30px #000000;
   }
 
   h2 {
     animation: none;
-    font-size: 3em;
+    font-size: 2.8em;
     line-height: 1.1;
     width: 100%;
     text-shadow: 0 0 10px #000000;
+    margin-top: 0px;
   }
 
   button {
-    font-size: 2.8em;
-    padding: 0.6em 1em;
+    font-size: 2.2em;
+    padding: 0.6em 0.8em;
     margin: 0.5em;
   }
-}
-
-// For screens with a maximum width of 1200px
-@media (max-width: 1200px) {
-  h1 {
-    animation: none;
-  }
-
-  h2 {
-    animation: none;
-  }
-  
 }
