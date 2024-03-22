@@ -23,8 +23,9 @@ function App() {
 
       </div>
       
-      <p className="read-the-docs">
-        BusPlanner.com website mockup by Gloria Lim
+      <p className="read-me-note">
+        Created with ReactJS.<br />
+        BusPlanner.com website mockup by Gloria Lim. 
       </p>
     </div>
   )
