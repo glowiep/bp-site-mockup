@@ -14,10 +14,10 @@ $button-backgound-color: #00284F;
   /* background-color: #16234A; */
   background-color: $main-background-color;
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  // font-synthesis: none;
+  // text-rendering: optimizeLegibility;
+  // -webkit-font-smoothing: antialiased;
+  // -moz-osx-font-smoothing: grayscale;
 }
 
 a {
@@ -33,7 +33,7 @@ body {
   margin: 0;
   display: flex;
   place-items: center;
-  min-width: 320px;
+  min-width: 200px;
   min-height: 100vh;
 
   background-image: url('src/assets/logo_1400.svg');
@@ -42,7 +42,6 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
-
 
   /* Additional styles */
   filter: drop-shadow(0 0 2em hsl(0, 0%, 100%));
@@ -110,52 +109,50 @@ button:focus-visible {
 }
 
 
-// For screens wider than 370px
+// For screens with a maximum width of 370px
 @media (max-width: 370) {
-  body {
-    background-size: contain;
-  }
-
   button {
     font-size: 1em;
   }
   
 }
 
-// For screens wider than 768px
+// For screens with a maximum width of 480px
+@media (max-width: 480px) {
+
+}
+
+// For screens with a maximum width of 768px
 @media (max-width: 768px) {
   body {
     background-size: cover;
+    min-width: 750px;
   }
 
   h1 {
     animation: none;
-    font-size: 4em;
+    font-size: 5em;
     line-height: 1;
     text-shadow: 0 0px 30px #000000;
   }
 
   h2 {
     animation: none;
-    font-size: 1.5em;
+    font-size: 3em;
     line-height: 1.1;
     width: 100%;
     text-shadow: 0 0 10px #000000;
   }
 
   button {
-    font-size: 1.2em;
+    font-size: 2.8em;
     padding: 0.6em 1em;
     margin: 0.5em;
   }
 }
 
-// For screens wider than 1200px
+// For screens with a maximum width of 1200px
 @media (max-width: 1200px) {
-  body {
-    background-size: cover;
-  }
-
   h1 {
     animation: none;
   }

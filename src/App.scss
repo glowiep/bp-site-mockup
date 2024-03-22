@@ -5,20 +5,20 @@
   text-align: center;
 }
 
-.logo {
-  position: fixed; /* Fixes the logo position */
-  top: 50%; /* Positions the logo vertically centered */
-  left: 50%; /* Positions the logo horizontally centered */
-  transform: translate(-50%, -50%); /* Centers the logo exactly */
-  z-index: -1; 
+// .logo {
+//   position: fixed; /* Fixes the logo position */
+//   top: 50%; /* Positions the logo vertically centered */
+//   left: 50%; /* Positions the logo horizontally centered */
+//   transform: translate(-50%, -50%); /* Centers the logo exactly */
+//   z-index: -1; 
 
-  /* Additional styles */
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-  /* filter: drop-shadow(0 0 2em #F4A106); */
-  filter: drop-shadow(0 0 2em hsl(0, 0%, 100%));
-}
+//   /* Additional styles */
+//   padding: 1.5em;
+//   will-change: filter;
+//   transition: filter 300ms;
+//   /* filter: drop-shadow(0 0 2em #F4A106); */
+//   filter: drop-shadow(0 0 2em hsl(0, 0%, 100%));
+// }
 
 .card {
   padding: 2em;
@@ -35,7 +35,6 @@
 
 
 .read-me-note {
-  position: absolute;
   bottom: 0.5em;
   left: 0;
   right: 0;
@@ -44,15 +43,15 @@
   margin: 0.5em;
 }
 
-// For screens wider than 370px
-@media (max-width: 370) {
-
-}
 
 // For screens wider than 768px
 @media (max-width: 768px) {
   .read-the-docs {
     font-size: 12px;
+  }
+
+  .content {
+    margin-top: 25em;
   }
 }
 

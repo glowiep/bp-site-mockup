@@ -1,17 +1,63 @@
-.title {
-  font-size: 4em;
+$default-blue: #00284F;
+
+.feature-div {
+  margin-top: 5em;
 }
 
+.feature-card {
+  margin-top: 4em;
+  padding: 1em;
+}
+
+.glassy-background {
+  background-color: rgba(255, 255, 255, 0.838); /* Adjust opacity as needed */
+  backdrop-filter: blur(10px); /* Adjust blur intensity as needed */
+  h3 {
+    color: $default-blue;
+    font-size: 2.7em;
+  }
+  p {
+    color: black;
+    font-size: 1.5em;
+  }
+}
 
 // For screens wider than 370px
 @media (max-width: 370) {
+  .feature-div {
+    max-width: 320px;
+    margin-top: 2em;
+  }
 
+  .glassy-background {
+    max-width: 320px;
+    h3 {
+      color: $default-blue;
+      font-size: 1.7em;
+    }
+    p {
+      color: black;
+      font-size: 1em;
+    }
+  }
 }
 
 // For screens wider than 768px
 @media (max-width: 768px) {
-  .title {
-    font-size: 3em;
+  .feature-div {
+    max-width: 600px;
+  }
+
+  .glassy-background {
+    // max-width: 600px;
+    h3 {
+      color: $default-blue;
+      font-size: 2.8em;
+    }
+    p {
+      color: black;
+      font-size: 1.8em;
+    }
   }
 }
 

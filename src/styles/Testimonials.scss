@@ -23,7 +23,9 @@ $default-blue: #00284F;
 
 // For screens wider than 370px
 @media (max-width: 370) {
-
+  .testimonial-card {
+    margin:0.5em;
+  }
 }
 
 // For screens wider than 768px
