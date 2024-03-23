@@ -109,19 +109,6 @@ button:focus-visible {
 }
 
 
-// For screens with a maximum width of 370px
-@media (max-width: 370) {
-  body {
-    background-size: 60%;
-    min-width: 300px;
-  }
-  
-  button {
-    font-size: 1em;
-  }
-}
-
-
 // For screens with a maximum width of 768px
 @media (max-width: 768px) {
   body {
@@ -151,6 +138,33 @@ button:focus-visible {
   }
 }
 
+// For screens with a maximum width of 615px
+@media (max-width: 615px) {
+  body {
+    background-size: cover;
+  }
+
+  h1 {
+    font-size: 3.8em;
+    text-shadow: 0 0px 30px #000000;
+  }
+
+  h2 {
+    animation: none;
+    font-size: 2em;
+    line-height: 1.1;
+    width: 100%;
+    text-shadow: 0 0 10px #000000;
+    margin-top: 0px;
+  }
+
+  button {
+    font-size: 2.2em;
+    font-size: 1.5em;
+    padding: 0.4em 0.5em;
+    margin: 0.5em;
+  }
+}
 
 // For screens with a maximum width of 480px
 @media (max-width: 480px) {
@@ -170,5 +184,17 @@ button:focus-visible {
     font-size: 1.2em;
     padding: 0.7em 0.8em;
     margin: 0.5em;
+  }
+}
+
+// For screens with a maximum width of 370px
+@media (max-width: 370) {
+  body {
+    background-size: 60%;
+    min-width: 300px;
+  }
+  
+  button {
+    font-size: 1em;
   }
 }
