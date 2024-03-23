@@ -5,6 +5,8 @@ This repository contains a responsive website mockup for <a href="https://www.bu
 ## Design Concept 💫
 The mockup features a clean and minimalist design with a focus on user-friendly navigation, intuitive layout, and engaging visual elements.
 
+!["BusPlanner site mockup landing page"](public/docs/4_landing.png)
+
 ## Process 💭
 - The goals for this redesign were simple. Due to time limits, the focus was to create a single landing page for <a href="https://www.busplanner.com" target="_blank">busplanner.com</a>, which links to the existing pages. 
 - No changes to the existing wording were made. The images were also sourced from the original page, and converted to SVG for this project.
@@ -20,6 +22,7 @@ The mockup features a clean and minimalist design with a focus on user-friendly 
 - <a href="https://react.dev/" target="_blank">ReactJS</a> (this project is built with <a href="https://vitejs.dev/guide/" target="_blank">Vite</a>)
 - <a href="https://sass-lang.com/documentation/" target="_blank">Sass</a> Styling
 - <a href="https://mui.com/material-ui/getting-started/installation/" target="_blank">MUI Library</a> - this was only used for the Github link component.
+
 
 ## Sources 🪝
 - <a href="https://www.busplanner.com" target="_blank">BusPlanner</a> Website - Images were downloaded from here
