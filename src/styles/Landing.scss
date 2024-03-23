@@ -1,4 +1,5 @@
 .landing-wrapper {
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -30,5 +31,9 @@
 @media (max-width: 480px) {
   .landing {
     padding: 0px;
+  }
+
+  .landing-wrapper {
+    min-height: 0vh;
   }
 }
