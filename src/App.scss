@@ -40,3 +40,10 @@
     font-size: 12px;
   }
 }
+
+// For screens with a maximum width of 480px
+@media (max-width: 480px) {
+  #root {
+    padding-top: 0em;
+  }
+}

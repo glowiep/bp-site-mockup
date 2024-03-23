@@ -31,3 +31,10 @@
     max-width: 80%;
   }
 }
+
+// For screens with a maximum width of 480px
+@media (max-width: 480px) {
+  .landing {
+    padding: 0px;
+  }
+}
