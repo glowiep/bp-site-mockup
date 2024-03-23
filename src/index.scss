@@ -26,7 +26,8 @@ a {
   font-style: italic;
 }
 a:hover {
-  color: $default-blue;
+  text-decoration: none;
+  color: inherit;
 }
 
 body {
@@ -84,6 +85,7 @@ button {
   // background-color: #C52B1E; //contrast orange
   cursor: pointer;
   transition: border-color 0.25s;
+  color: white;
 }
 button:hover {
   border-color: #646cff;
