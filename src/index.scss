@@ -22,7 +22,7 @@ $default-blue: #00284F;
 a {
   font-weight: 500;
   color: #C52B1E;
-  text-decoration: inherit;
+  text-decoration: none;
   font-style: italic;
 }
 a:hover {
@@ -101,7 +101,7 @@ button:focus-visible {
     background-color: #ffffff;
   }
   a:hover {
-    color: #747bff;
+    color: #ffffff;
   }
   button {
     background-color: #f9f9f9;
@@ -166,6 +166,8 @@ button:focus-visible {
 @media (max-width: 480px) {
   body {
     flex-direction: row-reverse;
+    justify-content: flex-start;
+    background-position: top center;
   }
 
   h1 {
