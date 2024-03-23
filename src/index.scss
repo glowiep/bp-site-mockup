@@ -167,7 +167,9 @@ button:focus-visible {
   body {
     flex-direction: row-reverse;
     justify-content: flex-start;
-    background-position: calc(50%) calc(50%);
+    background-position: top center;
+    background-origin: content-box;
+    padding-top: 100px;
   }
 
   h1 {
