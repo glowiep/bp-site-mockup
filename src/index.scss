@@ -41,6 +41,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
+  background-size: contain;
 
   // Additional styles
   filter: drop-shadow(0 0 2em hsl(0, 0%, 100%));
@@ -112,7 +113,7 @@ button:focus-visible {
 // For screens with a maximum width of 768px
 @media (max-width: 768px) {
   body {
-    background-size: cover;
+    background-size: contain;
   }
 
   h1 {
@@ -190,7 +191,6 @@ button:focus-visible {
 // For screens with a maximum width of 370px
 @media (max-width: 370) {
   body {
-    background-size: 60%;
     min-width: 300px;
   }
   
