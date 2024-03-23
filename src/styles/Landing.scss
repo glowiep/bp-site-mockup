@@ -1,5 +1,4 @@
 .landing-wrapper {
-  // min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -22,7 +21,7 @@
 
 // For screens with a maximum width of 768px, use cover background size
 @media (max-width: 768px) {
-  .landing-wrapper {
+  -wrapper {
     justify-content: flex-start; /* Align content to the top when screen is small */
   }  
 }
