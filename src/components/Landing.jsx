@@ -5,7 +5,7 @@ const Landing = ({ embedId }) => {
   return (
     <div className="landing-wrapper">
       <div className="landing">
-        <h1>Succeed with BusPlanner</h1>
+        <h1>Succeed with <i>Bus</i>Planner</h1>
         <div className="card">
           <h2>
             Thinking of Switching Software?
