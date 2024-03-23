@@ -7,7 +7,7 @@ $default-blue: #00284F;
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
+  color-scheme: dark;
   color: default-text-color;
   /* background-color: #491622; - Another option for background color */
   /* background-color: #00284F; - Another option for background color */ 
@@ -93,18 +93,18 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #ffffff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-}
+// @media (prefers-color-scheme: light) {
+//   :root {
+//     color: #213547;
+//     background-color: #ffffff;
+//   }
+//   a:hover {
+//     color: #ffffff;
+//   }
+//   button {
+//     background-color: #f9f9f9;
+//   }
+// }
 
 
 // For screens with a maximum width of 768px
@@ -165,6 +165,7 @@ button:focus-visible {
     flex-direction: row-reverse;
     justify-content: flex-start;
     background-position: top center;
+    background-attachment: fixed;
     background-origin: content-box;
     padding-top: 100px;
   }
