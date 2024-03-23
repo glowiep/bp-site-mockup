@@ -27,4 +27,4 @@ The mockup features a clean and minimalist design with a focus on user-friendly 
 
 <br/>
 
-![Project hours logged](https://img.shields.io/badge/Project_Hours_Logged-13.0_h-blue)
+![Project hours logged](https://img.shields.io/badge/Project_Hours_Logged-17.0_h-blue)
