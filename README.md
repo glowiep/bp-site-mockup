@@ -23,6 +23,8 @@ The mockup features a clean and minimalist design with a focus on user-friendly 
 - <a href="https://sass-lang.com/documentation/" target="_blank">Sass</a> Styling
 - <a href="https://mui.com/material-ui/getting-started/installation/" target="_blank">MUI Library</a> - this was only used for the Github link component.
 
+## Issues 🐛
+- Differet responsive display results expected when testing in chrome devtools vs the view on mobile display after deploy.
 
 ## Sources 🪝
 - <a href="https://www.busplanner.com" target="_blank">BusPlanner</a> Website - Images were downloaded from here
