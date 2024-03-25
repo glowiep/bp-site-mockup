@@ -1,7 +1,7 @@
-$main-background-color:#CC6700; // A darker orange
+$main-background-color: #cc6700; // A darker orange
 // $main-background-color:#e28324;  // A lighter orange
 $default-text-color: ffffff;
-$default-blue: #00284F;
+$default-blue: #00284f;
 
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -11,18 +11,18 @@ $default-blue: #00284F;
   color-scheme: dark;
   color: default-text-color;
   /* background-color: #491622; - Another option for background color */
-  /* background-color: #00284F; - Another option for background color */ 
+  /* background-color: #00284F; - Another option for background color */
   /* background-color: #16234A; - Another option for background color */
   background-color: $main-background-color;
-
-  text-rendering: optimizeLegibility;  // enhance the legibility of text by optimizing the way it is rendered, especially at smaller font sizes
-  -webkit-font-smoothing: antialiased;  // applies anti-aliasing to text, which smoothens the edges of characters and improves their appearance on screens
-  -moz-osx-font-smoothing: grayscale;  // applies anti-aliasing to text on Firefox browsers, using a grayscale method to improve text rendering
+  scroll-behavior: smooth;
+  text-rendering: optimizeLegibility; // enhance the legibility of text by optimizing the way it is rendered, especially at smaller font sizes
+  -webkit-font-smoothing: antialiased; // applies anti-aliasing to text, which smoothens the edges of characters and improves their appearance on screens
+  -moz-osx-font-smoothing: grayscale; // applies anti-aliasing to text on Firefox browsers, using a grayscale method to improve text rendering
 }
 
 a {
   font-weight: 500;
-  color: #C52B1E;
+  color: #c52b1e;
   text-decoration: none;
   font-style: italic;
 }
@@ -37,13 +37,13 @@ body {
   place-items: center;
   min-width: 200px;
 
-  background-image: url('https://raw.githubusercontent.com/glowiep/bp-site-mockup/c497f20315ba27f2ce9cfb15e50aca5c0613761f/src/assets/logo_1400.svg');
+  background-image: url("https://raw.githubusercontent.com/glowiep/bp-site-mockup/c497f20315ba27f2ce9cfb15e50aca5c0613761f/src/assets/logo_1400.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
 
   // Additional styles
-  filter: drop-shadow(0 0 2.5em hsl(0, 0%, 100%));
+  filter: drop-shadow(0 0 3em hsl(0, 0%, 100%));
   overflow-x: hidden;
 }
 
@@ -54,23 +54,22 @@ h1 {
   transition: filter 300ms;
   // Glowing brightness effect
   animation: glow 2s ease-in-out infinite alternate;
-
 }
 
 h2 {
   color: #fff6a7;
   font-size: 2.5em;
   will-change: filter;
-  
+
   animation: glow 2s ease-in-out infinite alternate;
 }
 
 @keyframes glow {
   from {
-    text-shadow: 0 0 20px #989898, 0 0 30px #16234A; 
+    text-shadow: 0 0 20px #989898, 0 0 30px #16234a;
   }
   to {
-    text-shadow: 0 0 30px #16234A, 0 0 40px #16234A;
+    text-shadow: 0 0 30px #16234a, 0 0 40px #16234a;
   }
 }
 
@@ -108,7 +107,6 @@ button:focus-visible {
 //     background-color: #f9f9f9;
 //   }
 // }
-
 
 // For screens with a maximum width of 768px
 @media (max-width: 768px) {
@@ -194,7 +192,7 @@ button:focus-visible {
   body {
     min-width: 300px;
   }
-  
+
   button {
     font-size: 1em;
   }
