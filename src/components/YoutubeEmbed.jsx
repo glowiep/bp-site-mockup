@@ -4,7 +4,7 @@ import '../styles/YoutubeEmbed.scss'
 
 const YoutubeEmbed = ({ embedId }) => {
   return (
-    <div className="video-responsive video">
+    <section className="video-responsive video">
       <iframe
         width="853"
         height="480"
@@ -14,7 +14,7 @@ const YoutubeEmbed = ({ embedId }) => {
         allowFullScreen
         title="Embedded youtube"
       />
-    </div>
+    </section>
   )
 };
 

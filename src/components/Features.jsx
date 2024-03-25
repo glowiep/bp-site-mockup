@@ -4,7 +4,7 @@ import { featureData } from "../data/featureData";
 
 const Features = () => {
   return (
-    <div className="feature-div">
+    <section className="feature-div">
       {featureData.map((feature) => (
         <a href={feature.url} target="_blank" rel="noopener noreferrer" key={feature.id}>
           <div className="feature-card glassy-background">
@@ -16,7 +16,7 @@ const Features = () => {
           </div>
         </a>
       ))}
-    </div>
+    </section>
   )
 };
 

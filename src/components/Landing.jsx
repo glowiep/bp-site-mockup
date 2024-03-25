@@ -3,7 +3,7 @@ import '../styles/Landing.scss'
 
 const Landing = ({ embedId }) => {
   return (
-    <div className="landing-wrapper">
+    <section className="landing-wrapper">
       <div className="landing">
         <h1>Succeed with <i>Bus</i>Planner</h1>
         <div className="card">
@@ -18,7 +18,7 @@ const Landing = ({ embedId }) => {
           </a>
         </div>
       </div>
-    </div>
+    </section>
   )
 };
 
