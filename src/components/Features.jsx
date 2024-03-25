@@ -1,8 +1,26 @@
 import React from "react";
 import '../styles/Features.scss';
 import { featureData } from "../data/featureData";
+import useIntersectionObserver from "../hooks/useIntersectionObserver";
 
 const Features = () => {
+  const handleIntersection = (entries, observer) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("visible");
+      } else {
+        entry.target.classList.remove("visible");
+      }
+    });
+  };
+
+  useIntersectionObserver(".feature-card", handleIntersection, {
+    root: null,
+    rootMargin: "0px",
+    threshold: 0.5,
+  });
+
+
   return (
     <section className="feature-div" id="how-can-bp-help">
       {featureData.map((feature) => (

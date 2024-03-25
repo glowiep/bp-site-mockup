@@ -4,23 +4,22 @@
   padding: 0.5em; 
   border-radius: 20px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
-  position: fixed;
-
-  color: #fff; 
   border: #000000 1px solid;
 
-  width: fit-content;
+  position: fixed;
+  margin-top: 2em;
 
   ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    
+    padding: 0em;
+    margin: 0.5em;
     li {
       list-style-type: none; // Removes the bullet points
       margin: 0;      
-      padding: 10px;
+      padding: 0.5em 1em 0.5em 1em;
       
       a {
         font-weight: 500;
@@ -31,9 +30,25 @@
 
       a:hover {
         text-decoration: none;
-        color: inherit;
+        color: #F6711E;
       }
     }
   }
 
+  &.hide {
+    transform: translateY(-100%);
+  }
+  
+  &.show {
+    transform: translateY(0);
+    transition: transform 0.3s ease-in-out;
+  }
+}
+
+
+// For screens with a maximum width of 480px
+@media (max-width: 820px) {
+  .top-nav {
+    display: none;
+  }
 }
