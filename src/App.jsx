@@ -4,12 +4,14 @@ import YoutubeEmbed from './components/YoutubeEmbed'
 import Features from './components/Features'
 import Testimonials from './components/Testimonials'
 import GithubIcon from './components/GithubIcon'
+import NavigationBar from './components/NavigationBar'
 
 function App() {
   const youtubeEmbedId = "qvoiYbpkDfo"
   return (
     <>
       <section className='app'>
+        {/* <NavigationBar /> */}
         <Landing embedId={youtubeEmbedId} />
         <section className='content'>
           <YoutubeEmbed embedId={youtubeEmbedId} />  

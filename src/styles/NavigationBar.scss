@@ -1,0 +1,39 @@
+.top-nav {
+  background-color: rgba(0, 40, 79, 0.7); // Semi-transparent background color
+  backdrop-filter: blur(20px); // Blur effect for glass-like appearance 
+  padding: 0.5em; 
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  position: fixed;
+
+  color: #fff; 
+  border: #000000 1px solid;
+
+  width: fit-content;
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    li {
+      list-style-type: none; // Removes the bullet points
+      margin: 0;      
+      padding: 10px;
+      
+      a {
+        font-weight: 500;
+        font-style: normal;
+        font-size: larger;
+        color: white;
+      }
+
+      a:hover {
+        text-decoration: none;
+        color: inherit;
+      }
+    }
+  }
+
+}

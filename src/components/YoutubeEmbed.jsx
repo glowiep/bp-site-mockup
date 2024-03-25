@@ -4,7 +4,7 @@ import '../styles/YoutubeEmbed.scss'
 
 const YoutubeEmbed = ({ embedId }) => {
   return (
-    <section className="video-responsive video">
+    <section className="video-responsive video" id="#watch-our-video">
       <iframe
         width="853"
         height="480"

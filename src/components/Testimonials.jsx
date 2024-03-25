@@ -3,7 +3,7 @@ import '../styles/Testimonials.scss'
 
 const Testimonials = () => {
   return (
-    <section>
+    <section id="testimonials">
       <h1 className="title">Testimonials</h1>
       <a href="https://www.busplanner.com/press.htm?v1711053122644" target="_blank" rel="noopener noreferrer" className="testimonial-link">
         <div className="testimonial-card">

@@ -1,10 +1,10 @@
 import React from "react";
-import '../styles/Features.scss'
+import '../styles/Features.scss';
 import { featureData } from "../data/featureData";
 
 const Features = () => {
   return (
-    <section className="feature-div">
+    <section className="feature-div" id="how-can-bp-help">
       {featureData.map((feature) => (
         <a href={feature.url} target="_blank" rel="noopener noreferrer" key={feature.id}>
           <div className="feature-card glassy-background">
